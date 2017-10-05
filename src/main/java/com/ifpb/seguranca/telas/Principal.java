@@ -19,6 +19,7 @@ import java.util.logging.Logger;
 import javax.crypto.BadPaddingException;
 import javax.crypto.IllegalBlockSizeException;
 import javax.crypto.NoSuchPaddingException;
+import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 
 /**
@@ -31,6 +32,8 @@ public class Principal extends javax.swing.JFrame {
 
     public Principal() {
         initComponents();
+        ImageIcon logo = new ImageIcon("src/imagens/icone.png");
+        setIconImage(logo.getImage());
         this.setLocationRelativeTo(null);
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         jButton2.setVisible(false);

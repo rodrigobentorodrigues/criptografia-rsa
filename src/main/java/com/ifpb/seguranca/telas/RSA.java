@@ -1,6 +1,7 @@
 package com.ifpb.seguranca.telas;
 
 import com.ifpb.seguranca.infra.CriptografiaRSA;
+import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 
 /**
@@ -15,6 +16,8 @@ public class RSA extends javax.swing.JFrame {
     public RSA() {
         // Inicia os componentes da visão
         initComponents();
+        ImageIcon logo = new ImageIcon("src/imagens/icone.png");
+        setIconImage(logo.getImage());
         // Centraliza a tela
         this.setLocationRelativeTo(null);
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);

@@ -5,6 +5,8 @@
  */
 package com.ifpb.seguranca.telas;
 
+import javax.swing.ImageIcon;
+
 /**
  *
  * @author rodrigobento
@@ -17,6 +19,8 @@ public class Menu extends javax.swing.JFrame {
     public Menu() {
         initComponents();
         this.setLocationRelativeTo(null);
+        ImageIcon logo = new ImageIcon("src/imagens/icone.png");
+        setIconImage(logo.getImage());
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
 

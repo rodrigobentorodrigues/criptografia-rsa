@@ -1,6 +1,7 @@
 package com.ifpb.seguranca.telas;
 
 import static java.lang.Thread.sleep;
+import javax.swing.ImageIcon;
 
 /**
  *
@@ -10,6 +11,8 @@ public class Inicial extends javax.swing.JFrame {
 
     public Inicial() {
         initComponents();
+        ImageIcon logo = new ImageIcon("src/imagens/icone.png");
+        setIconImage(logo.getImage());
         jTextArea1.setEditable(false);
         this.setLocationRelativeTo(null);
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
