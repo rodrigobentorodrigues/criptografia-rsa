@@ -32,6 +32,10 @@ A aplicação conta com uma interface SWING Java, contendo 4 telas.
   - Compilando: mvn clean install
   - Entrando na pasta que contem o jar: cd target/  
   - Executando: java -jar Criptografia-1.jar
+  
+  ou 
+  
+- Executando o sh disponivel: run.sh
 
 ### Codigo comentado e contendo passos intuitivos.
 
